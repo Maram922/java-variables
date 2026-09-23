@@ -16,6 +16,7 @@ class course {
         System.out.println(course_name + " has " + registered_students + " students.");
     }
     public void passPercentage() {
+        // Calculate the pass percentage based on registered vs passed students
         double pass_percentage = (passed_students * 100.0) / registered_students;
         System.out.println(course_name + " pass percentage: "+ pass_percentage + "%");
     }
