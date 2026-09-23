@@ -21,9 +21,9 @@ class course {
     }
 
    static void main(String[] args) {
-      course c1 = new course("Software Engineering", 120, 101);
-        course c2 = new course("Computer Science", 100, 90);
-        course c3 = new course("IT", 75, 73);
+      course c1 = new course("Applied Object Oriented Programming", 120, 101);
+        course c2 = new course("Computer Networks", 100, 90);
+        course c3 = new course("Research Methods", 75, 73);
 
         c1.CourseStats();
         c1.passPercentage();
