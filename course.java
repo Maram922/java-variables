@@ -25,14 +25,17 @@ class course {
         course c2 = new course("Computer Science", 100, 90);
         course c3 = new course("IT", 75, 73);
 
-        c1.CourseStats();
-        c1.passPercentage();
+       System.out.println("------------------------------------");
+       c1.CourseStats();
+       c1.passPercentage();
 
-        c2.CourseStats();
-        c2.passPercentage();
+       System.out.println("------------------------------------");
+       c2.CourseStats();
+       c2.passPercentage();
 
-        c3.CourseStats();
-        c3.passPercentage();
+       System.out.println("------------------------------------");
+       c3.CourseStats();
+       c3.passPercentage();
 
         System.out.println("Total students across all courses: " + totalStudents);
 
