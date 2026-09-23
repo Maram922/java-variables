@@ -13,7 +13,7 @@ class course {
     }
 
     public void CourseStats() {
-        System.out.println("course: "course_name + " has " + registered_students + " students.");
+        System.out.println("course:" + course_name + " has " + registered_students + " students.");
     }
     public void passPercentage() {
         double pass_percentage = (passed_students * 100.0) / registered_students;
