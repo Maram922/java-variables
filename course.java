@@ -4,7 +4,7 @@ class course {
     int passed_students;
 
     static int totalStudents;
-
+    // Constructor initializes course details and updates total students
     course(String course_name, int registered_students, int passed_students){
      this.course_name = course_name;
      this.registered_students = registered_students;
@@ -13,7 +13,7 @@ class course {
     }
 
     public void CourseStats() {
-        System.out.println(course_name + " has " + registered_students + " students.");
+        System.out.println("course: "course_name + " has " + registered_students + " students.");
     }
     public void passPercentage() {
         double pass_percentage = (passed_students * 100.0) / registered_students;
