@@ -37,8 +37,11 @@ class course {
        c3.CourseStats();
        c3.passPercentage();
 
-        System.out.println("Total students across all courses: " + totalStudents);
+       System.out.println("=== COURSE ENROLLMENT REPORT ===");
 
+       System.out.println("====================================");
+       System.out.println("Total students across all courses: " + totalStudents);
+       System.out.println("====================================");
     }
 
 }
