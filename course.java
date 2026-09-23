@@ -19,7 +19,7 @@ class course {
         double pass_percentage = (passed_students * 100.0) / registered_students;
         System.out.println(course_name + " pass percentage: "+ pass_percentage);
     }
-    
+
     public void averageAttendance(int totalClasses, int attendedClasses) {
         double avg = (attendedClasses * 100.0) / totalClasses;
         System.out.println(course_name + " Average Attendance: " + avg + "%");
@@ -38,6 +38,10 @@ class course {
 
         c3.CourseStats();
         c3.passPercentage();
+
+       c1.averageAttendance(20, 18);
+       c2.averageAttendance(20, 15);
+       c3.averageAttendance(20, 19);
 
         System.out.println("Total students across all courses: " + totalStudents);
 
